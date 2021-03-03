@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[login pageis Displayed ]]>
+    </line>
+    <line>
+      <![CDATA[open task pageis Displayed ]]>
+    </line>
+    <line>
+      <![CDATA[active projects and customers pageis Displayed ]]>
+    </line>
+    <line>
+      <![CDATA[add new project pageis Displayed ]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24161" started-at="2021-03-01T17:04:14Z" finished-at="2021-03-01T17:04:38Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="24161" started-at="2021-03-01T17:04:14Z" finished-at="2021-03-01T17:04:38Z">
+      <class name="com.FlipKart.projandcoust.createprojandcust">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:com.FlipKart.projandcoust.createprojandcust@6737fd8f]" name="OpenBrowser" is-config="true" duration-ms="11958" started-at="2021-03-01T17:04:14Z" finished-at="2021-03-01T17:04:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[login pageis Displayed ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="createprojecttest()[pri:0, instance:com.FlipKart.projandcoust.createprojandcust@6737fd8f]" name="createprojecttest" duration-ms="12167" started-at="2021-03-01T17:04:26Z" finished-at="2021-03-01T17:04:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[open task pageis Displayed ]]>
+            </line>
+            <line>
+              <![CDATA[active projects and customers pageis Displayed ]]>
+            </line>
+            <line>
+              <![CDATA[add new project pageis Displayed ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createprojecttest -->
+      </class> <!-- com.FlipKart.projandcoust.createprojandcust -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

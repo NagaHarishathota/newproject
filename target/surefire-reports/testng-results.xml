@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[TestTest Started]]>
+    </line>
+    <line>
+      <![CDATA[login pageis Displayed ]]>
+    </line>
+    <line>
+      <![CDATA[createusertestTest Started]]>
+    </line>
+    <line>
+      <![CDATA[ open task page is Displayed ]]>
+    </line>
+    <line>
+      <![CDATA[user list pageis Displayed ]]>
+    </line>
+    <line>
+      <![CDATA[add new user pageis Displayed ]]>
+    </line>
+    <line>
+      <![CDATA[user is created, Success message is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[createusertestTest Success]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="18539" started-at="2021-03-02T19:13:29 IST" finished-at="2021-03-02T19:13:47 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="18539" started-at="2021-03-02T19:13:29 IST" finished-at="2021-03-02T19:13:47 IST">
+      <class name="com.FlipKart.users.createuser">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:com.FlipKart.users.createuser@74ad1f1f]" name="OpenBrowser" is-config="true" duration-ms="7652" started-at="2021-03-02T19:13:29 IST" finished-at="2021-03-02T19:13:36 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[login pageis Displayed ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="createusertest()[pri:0, instance:com.FlipKart.users.createuser@74ad1f1f]" name="createusertest" duration-ms="10817" started-at="2021-03-02T19:13:36 IST" finished-at="2021-03-02T19:13:47 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[createusertestTest Started]]>
+            </line>
+            <line>
+              <![CDATA[ open task page is Displayed ]]>
+            </line>
+            <line>
+              <![CDATA[user list pageis Displayed ]]>
+            </line>
+            <line>
+              <![CDATA[add new user pageis Displayed ]]>
+            </line>
+            <line>
+              <![CDATA[user is created, Success message is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[createusertestTest Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createusertest -->
+      </class> <!-- com.FlipKart.users.createuser -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
